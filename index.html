@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css"></link>
+    <script type="text/javascript" src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"></link>
+  </head>
+  <body>
+    <section id="opening">
+      <nav>
+        <a href="#contact">About Me</a>
+        <a href="#work1">Work</a>
+        <a href="https://link.medium.com/a7sS1sDgUY">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="circle-outer">
+        <div class="circle-inner circle1">
+          <div class="circle-inner circle2">
+            <div class="circle-inner circle3">
+              <div class="circle-inner circle4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="intro">
+        <span class="text-bold">Akshitha Shetty</span>
+        <p class="subtitle">I am a UI developer and designer with a penchant for user- oriented designs.</p>
+      </div>
+    </section>
+    <section id="work1">
+      <section class = "work1">
+        <div class="content">
+          <p class="category">UX, Application Development</p>
+          <p class="heading">Google Summer of Code with Mozilla</p>
+          <p class="summary work">Redesigned the Reader Mode in Firefox in order to comply with Mozilla's latest Photon Design System. </p>
+          <p><a href="#" onclick="openModal1()" class="view-more" >VIEW MORE</a></p>
+        </div>
+        <div class="image">
+          <div>
+          <img class="image-back" src="readermode-back.png">
+          <img  class="image-top" src="readermode-top.png">
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="work2">
+      <section class = "work1">
+        <div class="content">
+          <p class="category">Front End Development</p>
+          <p class="heading">UI developement Intern at Radicali.io</p>
+          <p class="summary work">This internship involved working with various front end technologies to add functionalities to improove the product's user-experience. In addition, the company's website was also redesigned. </p>
+          <p><a href="#" onclick="openModal2()" class="view-more" >VIEW MORE</a></p>
+        </div>
+        <div class="image">
+          <img class="image-back" src="radicali-back.png">
+          <img  class="image-top full-size" src="radicali-front.png">
+        </div>
+      </section>
+    </section>
+    <section id="work3">
+      <section class = "work1">
+        <div class="content">
+          <p class="category">Design, Application Development</p>
+          <p class="heading">Open Source Contributions</p>
+          <p class="summary work">Made open source contributions to Mozilla and CloudCV. </p>
+          <p><a href="#" onclick="openModal3()" class="view-more" >VIEW MORE</a></p>
+        </div>
+        <div class="image">
+          <img class="image-back" src="open-source-back.png">
+          <img  class="image-top full-size" src="open-source-front.png">
+        </div>
+      </section>
+    </section>
+    <section id="work4">
+      <section class = "work1">
+        <div class="content">
+          <p class="category">UI Design and Development</p>
+          <p class="heading">Freelance Project for Purewater</p>
+          <p class="summary work">Redesigned the website for the organization with enhanced functionality </p>
+          <p><a href="#" onclick="openModal4()" class="view-more" >VIEW MORE</a></p>
+        </div>
+        <div class="image">
+          <img class="image-back" src="purewater-back.png">
+          <img  class="image-top full-size" src="purewater-front.png">
+        </div>
+      </section>
+    </section>
+    <footer id="contact">
+      <div class="main">
+        <p class="heading">Say Hi!</p>
+        <p class="email-id"><a href="mailto:shetty.aks@husky.neu.edu">shetty.aks@husky.neu.edu</a></p>
+        <p class="summary">“I am a UI designer and developer interested in developing projects that have an impact on the user. According to be a good UI should focus 30% on the aestethics, 50% on the usablity and 20% on innovation and creativity. I enjoy designing and developing websites and mobile applications. If you have a creative requirement or development drop a mail and we can take it ahead from there !”</p>
+        <p class="salutation">Akshitha Shetty,</p>
+        <p class="salutation">UI developer, Boston</p>
+      </div>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/akshitha-shetty/" target="_blank"><img  class="social-media-logo" src="linkedin.png"></a>
+        <a href="https://github.com/akshithashetty/" target="_blank"><img class="social-media-logo" src="github.png"></a>
+        <a href="https://twitter.com/AkshithaShetty8" target="_blank"><img class="social-media-logo" src="twitter.png"></a>
+      </div>
+    </footer>
+    <div class="modalBackground">
+    </div>
+    <div class="modal modal1">
+      <button type="button" onclick="closeModal1()" class="close">x</button>
+      <div class ="modalContent">
+      <p class="heading">Google Summer of Code with Mozilla</p>
+      <p class="subHeading">Skills into action</p>
+      <span class="skillHighlight">HTML</span>
+      <span class="skillHighlight">CSS</span>
+      <span class="skillHighlight">Javascript</span>
+      <span class="skillHighlight">Usablity Testing</span>
+      <p class="subHeading">Need and Summary</p>
+      <p class="modalText">The project involves the redesign of Firefox Reader as well as working on the functionality related issues the current reader is facing. The redesign of the Reader has to be done so that it complies the Photon Design System and also offers a better user experience to it's users. Thus, using the knowledge of JavaScript, CSS, and web experience, the project aims at revamping the Reader View considering all the three reader modes ie. Light Mode, Dark Mode and Sepia Mode to enhance the reader's reading experience.</p>
+      <p class="subHeading">Research</p>
+      <p class="modalText">The issues in the present Reader mode on analyzing the various bugs filled could be grouped into the following-<br>
+      1. Design <br>
+      2. Refactor the Code <br>
+      3. Improove the accessiblty of the code.</p>
+      <p class="subHeading">Implementation</p>
+      <p class="modalText">
+      1. Redesigned the reader mode to Comply with the latest standards.<br>
+      2. Integrated Keyboard Shortcuts with the Newly designed UI.<br>
+      3. Refcatored the code in the process.
+      </p>
+      <p class="subHeading">View Project</p>
+      <p class="modalText">The patch is under final stage of review and will be live soon!</p>
+      </div>
+    </div>
+    <div class="modal modal2">
+      <button type="button" onclick="closeModal2()" class="close">x</button>
+      <div class ="modalContent">
+      <p class="heading">UI developement Intern at Radicali.io</p>
+      <p class="subHeading">Skills into action</p>
+      <span class="skillHighlight">HTML</span>
+      <span class="skillHighlight">CSS</span>
+      <span class="skillHighlight">Bootstrap</span>
+      <span class="skillHighlight">Javascript</span>
+      <span class="skillHighlight">React.js</span>
+      <span class="skillHighlight">Git</span>
+      <span class="skillHighlight">User Experience</span>
+      <p class="subHeading">Need and Summary</p>
+      <p class="modalText">The internship role involed two major tasks one was to improove the usablity of the existing application from the feedback the company had recieved so far. Secondly, the company's website had to be redesigned to carter to it's expanded client base.</p>
+      <p class="subHeading">Research</p>
+      <p class="modalText">For the first task, the following issues were analyzed-<br>
+      1. As the application was a smart compliance assistant, there was a lot of text going around the application. Thus, it was important to improove the readablity of this text for the user.<br>
+      2. The existing UI bugs (mostly bootstrap related) needed to be solved<br>
+      3. As the company had expanded, there was a need for the complicance system to get a name and chacter that would help them popularize it further.</p>
+      <p class="subHeading">Implementation</p>
+      <p class="modalText">
+      1. The readablity was improoved by combining knowledge of CSS and phycology of human reading.<br>
+      2. The prevalent bugs were solved.<br>
+      3. The smart bot was name "MICA" and was made the highlight of the newly designed webpage along with how it could help making compliance easier.
+      </p>
+      <p class="subHeading">View Project</p>
+      <p class="modalText">Link to company website-<a href="https://www.meetmica.io">https://www.meetmica.io/</a></p>
+      </div>
+    </div>
+    <div class="modal modal3">
+      <button type="button" onclick="closeModal3()" class="close">x</button>
+      <div class ="modalContent">
+      <p class="heading">Open Source Contributions</p>
+      <p class="subHeading">Skills into action</p>
+      <span class="skillHighlight">HTML</span>
+      <span class="skillHighlight">CSS</span>
+      <span class="skillHighlight">Illustrator</span>
+      <span class="skillHighlight">Figma</span>
+      <span class="skillHighlight">Git</span>
+      <p class="subHeading">Summary</p>
+      <p class="modalText">Amongst the contributions made, here are the details of a couple of them.</p>
+      <p class="subHeading">Improove color of pseudo-classes in Firefox Devtools.</p>
+      <p class="modalText">The pseudo-classes in Firefox devtools were represented with inline text and discs before the line. The purpose of this bug was to change the color of these indicators from red to some other photon color which had sufficient contast in both dark and light modes </p>
+      <p class="subHeading">Implementation</p>
+      <p class="modalText">
+      After discussing with me mentors I chose Photon Yellow as it would help keep this color distinct from the other colors used in the inspector. Details of the same can be food here-
+      <a href="https://github.com/firefox-devtools/ux/issues/13">https://github.com/firefox-devtools/ux/issues/13"></a>
+      </p>
+      <p class="subHeading">Design Landing Page for Origami(CloudCv).</p>
+      <p class="modalText">The lading page for the organization was conceptualized and designed</p>
+      <p class="subHeading">Implementation</p>
+      <p class="modalText">
+      Here is a <a href="https://www.figma.com/proto/Pr2uoa60djaeq6TmWnsj05Kk/Untitled?node-id=1%3A2&scaling=scale-down-width"> link </a>to the mockup for the same.
+      </p>
+
+      </div>
+    </div>
+    <div class="modal modal4">
+      <button type="button" onclick="closeModal4()" class="close">x</button>
+      <div class ="modalContent">
+      <p class="heading">Freelance Project for Purewater</p>
+      <p class="subHeading">Skills into action</p>
+      <span class="skillHighlight">HTML</span>
+      <span class="skillHighlight">CSS</span>
+      <span class="skillHighlight">React.js</span>
+      <span class="skillHighlight">UI Design</span>
+      <p class="subHeading">Need and Summary</p>
+      <p class="modalText">The aim of the redesign was to make the webite adhere with the latest design standards. The project's goal was to provide the user with a catalog as well as add as allow users to make a list of products they were interested in. And finally send an automated mail to the admin about the products of interest.</p>
+      <p class="subHeading">View Project</p>
+      <p class="modalText">The project is live here - <a href="http://purewaterindia.in/">http://purewaterindia.in/</a> <br>
+      </div>
+    </div>
+  </body>
+</html>
