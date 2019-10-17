@@ -429,6 +429,11 @@ body.modal-open {
     height: 100vh;
   }
 
+  .image-top {
+    left: 150px;
+    top: -100px;
+  }
+
   .social-media {
     height: 10%;
   }
@@ -443,6 +448,10 @@ body.modal-open {
   .image-top.full-size {
     width: 200px;
     height: 150px;
+  }
+
+  .image {
+    padding-left: 20%;
   }
 
   .heading {
@@ -502,14 +511,16 @@ body.modal-open {
   .image-top {
     width: 80px;
     height: 140px;
+    top: -80px;
+    left: 130px;
   }
 
   .image {
     padding-top: 60px;
+    padding-left: 40px;
   }
 
   .email-id a {
     font-size: 20px;
   }
-
 }
