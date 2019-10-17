@@ -335,8 +335,7 @@ a.view-more:hover {
   }
 
   footer {
-    height: 80vh;
-    width: 100vw;
+    height: 100vh;
   }
 
   .main {
@@ -360,6 +359,17 @@ a.view-more:hover {
     height: 30px;
     width: 30px;
     margin: 0 20px 0 20px;
+  }
+
+  .logos {
+    display: block;
+    height: 34px;
+    margin: auto 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    width: 250px;
   }
 
 }
