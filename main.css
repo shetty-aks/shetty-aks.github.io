@@ -182,6 +182,7 @@ footer {
   text-align: center;
   padding: 20px;
   padding-top: 100px;
+  padding-left: 10%;
 }
 
 .image-top {
@@ -189,21 +190,24 @@ footer {
   width:  120px;
   box-shadow: 10px 10px 40px rgba(83, 77, 77, 0.5);
   position: relative;
-  left: -50px;
-  top: 30px
+  display: block;
+  top: -150px;
+  left: 220px;
+
 }
 
 .image-top.full-size {
   height: 200px;
   width:  300px;
+  top: -130px;
   left: 50px;
-  top: -160px;
 }
 
 .image-back {
   height: 200px;
   width: 300px;
   box-shadow: 10px 10px 40px rgba(83, 77, 77, 0.5);
+  display: block;
 }
 
 .summary.work {
@@ -234,6 +238,11 @@ a.view-more:hover {
   border-bottom: 1px solid #796f6fad;
 }
 /*Modal UI*/
+body.modal-open {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 .modal {
   position: fixed;
   top: 5vh;
@@ -246,7 +255,7 @@ a.view-more:hover {
 }
 
 .modalBackground {
-  background-color: white;
+  background-color: #a49696;
   opacity: 0.7;
   position:fixed;
   height: 100vh;
@@ -432,7 +441,7 @@ a.view-more:hover {
 
   .image-back,
   .image-top.full-size {
-    width: 200px;;
+    width: 200px;
     height: 150px;
   }
 
@@ -472,11 +481,7 @@ a.view-more:hover {
     width: 100%;
     height: 50%;
     float: none;
-  }
-
-  .image-top.full-size {
-    left: -100px;
-    top: 30px;
+    padding-left: 30%;
   }
 
   .content {
@@ -507,9 +512,4 @@ a.view-more:hover {
     font-size: 20px;
   }
 
-  .image-top.full-size {
-    top: -100px;
-    left: 50px;
-
-  }
 }

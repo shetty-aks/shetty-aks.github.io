@@ -1,6 +1,7 @@
 function openModal1() {
   var modal = document.querySelector(".modal1");
   var modalBg = document.querySelector(".modalBackground");
+  document.querySelector("body").classList.add("modal-open");
   modalBg.style.display ="block";
   modal.style.display="block";
 }
@@ -8,6 +9,7 @@ function openModal1() {
 function closeModal1(){
   var modal = document.querySelector(".modal1");
   var modalBg = document.querySelector(".modalBackground");
+  document.querySelector("body").classList.remove("modal-open");
   modalBg.style.display ="none";
   modal.style.display="none";
 }
@@ -15,6 +17,7 @@ function closeModal1(){
 function openModal2() {
   var modal = document.querySelector(".modal2");
   var modalBg = document.querySelector(".modalBackground");
+  document.querySelector("body").classList.add("modal-open");
   modalBg.style.display ="block";
   modal.style.display="block";
 }
@@ -22,6 +25,7 @@ function openModal2() {
 function closeModal2(){
   var modal = document.querySelector(".modal2");
   var modalBg = document.querySelector(".modalBackground");
+  document.querySelector("body").classList.remove("modal-open");
   modalBg.style.display ="none";
   modal.style.display="none";
 }
@@ -29,6 +33,7 @@ function closeModal2(){
 function openModal3() {
   var modal = document.querySelector(".modal3");
   var modalBg = document.querySelector(".modalBackground");
+  document.querySelector("body").classList.add("modal-open");
   modalBg.style.display ="block";
   modal.style.display="block";
 }
@@ -36,6 +41,7 @@ function openModal3() {
 function closeModal3(){
   var modal = document.querySelector(".modal3");
   var modalBg = document.querySelector(".modalBackground");
+  document.querySelector("body").classList.remove("modal-open");
   modalBg.style.display ="none";
   modal.style.display="none";
 }
@@ -43,6 +49,7 @@ function closeModal3(){
 function openModal4() {
   var modal = document.querySelector(".modal4");
   var modalBg = document.querySelector(".modalBackground");
+  document.querySelector("body").classList.add("modal-open");
   modalBg.style.display ="block";
   modal.style.display="block";
 }
@@ -50,6 +57,7 @@ function openModal4() {
 function closeModal4(){
   var modal = document.querySelector(".modal4");
   var modalBg = document.querySelector(".modalBackground");
+  document.querySelector("body").classList.remove("modal-open");
   modalBg.style.display ="none";
   modal.style.display="none";
 }
