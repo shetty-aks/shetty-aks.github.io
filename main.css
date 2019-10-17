@@ -6,7 +6,7 @@
   color: #232222;
 }
 
-body {
+html, body {
   overflow-x: hidden;
 }
 /*section1*/
@@ -334,10 +334,6 @@ a.view-more:hover {
     font-size: 18px;
   }
 
-  footer {
-    height: 100vh;
-  }
-
   .main {
     margin-right: 10px;
     position: absolute;
@@ -418,6 +414,10 @@ a.view-more:hover {
   .salutation {
     font-size: 18px;
     margin: 5px 20px 5px 20px;
+  }
+
+  footer {
+    height: 100vh;
   }
 
   .social-media {
