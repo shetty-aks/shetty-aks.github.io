@@ -14,7 +14,7 @@ html, body {
 #opening {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 600px;
 }
 
 nav {
@@ -101,7 +101,7 @@ nav a:hover {
 
 /*footer*/
 footer {
-  height: 80vh;
+  height: 500px;
   width: 100vw;
   background-color: #EF4848;
   position: relative;
@@ -164,7 +164,7 @@ footer {
 /*work*/
 .work1 {
   width: 100vw;
-  height: 70vh;
+  height: 500px;
 }
 
 .content {
@@ -426,7 +426,7 @@ body.modal-open {
   }
 
   footer {
-    height: 100vh;
+    height: 600px;
   }
 
   .image-top {
@@ -477,7 +477,7 @@ body.modal-open {
 }
 @media screen and (max-width: 950px) {
   .work1 {
-    height: 100vh;
+    height: 600px;
   }
 
   .content {
