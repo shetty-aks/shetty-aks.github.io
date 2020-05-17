@@ -26,10 +26,12 @@ nav {
 nav a {
   margin: 10px;
   text-decoration: none;
+  color: #4d3f3fe3;
+  font-weight: bold;
 }
 
 nav a:hover {
-  color: #796f6fad;
+  color: black;
 }
 
 .circle-outer {
@@ -156,9 +158,15 @@ footer {
   height: 50px;
   width: 50px;
   margin: 20px 0 20px 0;
+  opacity: 0.87;
 }
+
+.social-media-logo:hover {
+  opacity: 1;
+}
+
 /*work*/
-.work1 {
+.workex {
   width: 100vw;
   height: 500px;
 }
@@ -222,16 +230,17 @@ footer {
 
 a.view-more {
   text-decoration: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #887070;
   padding-bottom: 5px;
   font-weight: bold;
   margin-left: 20px;
   font-size: 15px;
+  color: #4d3f3f;
 }
 
 a.view-more:hover {
-  color: #796f6fad;
-  border-bottom: 1px solid #796f6fad;
+  color: black;
+  border-bottom: 1px solid black;
 }
 /*Modal UI*/
 body.modal-open {
@@ -279,6 +288,11 @@ body.modal-open {
   font-weight: bold;
   border: none;
   margin: 20px;
+  opacity: 0.7;
+}
+
+.close:hover {
+  opacity: 1;
 }
 
 .modal .heading {
@@ -472,7 +486,7 @@ body.modal-open {
 
 }
 @media screen and (max-width: 950px) {
-  .work1 {
+  .workex {
     height: 600px;
   }
 
