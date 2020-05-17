@@ -6,15 +6,14 @@
   color: #232222;
 }
 
-html, body {
+body {
   overflow-x: hidden;
 }
 /*section1*/
 
 #opening {
-  position: relative;
   width: 100vw;
-  height: 600px;
+  overflow-x: hidden;
 }
 
 nav {
@@ -37,9 +36,6 @@ nav a:hover {
   background-color: #FAE7E7;
   height: 110vh;
   width: 110vh;
-  position: absolute;
-  left: 0;
-  top:0;
   border-radius: 50%;
   transform: translate(-23vh,-15vh);
   overflow: hidden;

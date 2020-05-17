@@ -1,9 +1,11 @@
-function openModal1() {
+function openModal1(e) {
   var modal = document.querySelector(".modal1");
   var modalBg = document.querySelector(".modalBackground");
   document.querySelector("body").classList.add("modal-open");
   modalBg.style.display ="block";
   modal.style.display="block";
+  e.preventDefault();
+  console.log("hi");
 }
 
 function closeModal1(){
@@ -14,12 +16,13 @@ function closeModal1(){
   modal.style.display="none";
 }
 
-function openModal2() {
+function openModal2(e) {
   var modal = document.querySelector(".modal2");
   var modalBg = document.querySelector(".modalBackground");
   document.querySelector("body").classList.add("modal-open");
   modalBg.style.display ="block";
   modal.style.display="block";
+  e.preventDefault();
 }
 
 function closeModal2(){
@@ -30,12 +33,13 @@ function closeModal2(){
   modal.style.display="none";
 }
 
-function openModal3() {
+function openModal3(e) {
   var modal = document.querySelector(".modal3");
   var modalBg = document.querySelector(".modalBackground");
   document.querySelector("body").classList.add("modal-open");
   modalBg.style.display ="block";
   modal.style.display="block";
+  e.preventDefault();
 }
 
 function closeModal3(){
@@ -46,12 +50,13 @@ function closeModal3(){
   modal.style.display="none";
 }
 
-function openModal4() {
+function openModal4(e) {
   var modal = document.querySelector(".modal4");
   var modalBg = document.querySelector(".modalBackground");
   document.querySelector("body").classList.add("modal-open");
   modalBg.style.display ="block";
   modal.style.display="block";
+  e.preventDefault();
 }
 
 function closeModal4(){
